@@ -9,11 +9,10 @@ const config = {
   http: {
     port: 8888,
     allow_origin: "*",
-    mediaroot: "C:/Users/Vadzim.Sheukunou",
+    mediaroot: "./media",
   },
   trans: {
-    ffmpeg:
-      "C:\\Users\\Vadzim.Sheukunou\\Desktop\\ffmpeg-20200807-fab00b0-win64-static\\bin\\ffmpeg.exe",
+    ffmpeg: "/usr/local/bin/ffmpeg",
     tasks: [
       {
         app: "live",
