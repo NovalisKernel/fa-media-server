@@ -1,0 +1,33 @@
+{
+  "name": "fa-media-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "cross-env NODE_ENV=development nodemon ./index.js",
+    "prod": "cross-env NODE_ENV=production node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NovalisKernel/fa-media-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NovalisKernel/fa-media-server/issues"
+  },
+  "homepage": "https://github.com/NovalisKernel/fa-media-server#readme",
+  "dependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/polyfill": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/register": "^7.11.5",
+    "@hapi/joi": "^17.1.1",
+    "node-media-server": "^2.2.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "nodemon": "^2.0.4"
+  }
+}
